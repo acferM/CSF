@@ -12,11 +12,68 @@ export const Container = styled.div`
   }
 
   .inputs {
-    height: 460px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 460px;
+    width: 725px;
+    flex-direction: row;
+    margin: auto;
     margin-top: 20px;
-    margin-left: 25%;
+    justify-content: space-between;
+
+    .inputsTxt {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .percentages {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  .button {
+    background: #F23838;
+    width: 331px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: background .2s;
+
+    .first {
+      width: 63px;
+      height: 53px;
+      background: #B22E2E;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+      padding-left: 8px;
+      padding-top: 2px;
+
+      span {
+        font-size: 50px;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+
+    div.other {
+      width: 268px;
+      border-top-right-radius: 16px;
+      border-bottom-right-radius: 16px;
+
+      p {
+        color: #FFF;
+        font-size: 27.4px;
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+
+    &:hover {
+      background: #B22E2E;
+    }
   }
 `;

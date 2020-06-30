@@ -11,3 +11,7 @@ p {
   font-family: 'Fira Code', monospace;
   color: #F23838;
 }
+
+select {
+  font-family: 'Fira Code', monospace;
+}
