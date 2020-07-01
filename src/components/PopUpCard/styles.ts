@@ -22,7 +22,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 2px solid #fff;
 
     p.description {
       font-size: 41.4px;
